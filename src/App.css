@@ -1,0 +1,73 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+body
+{
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 86%);
+}
+
+.Main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  background-color: white;
+  border-radius: 2em 2em 12em 2em;
+  padding: 40px;
+}
+
+.Upper
+{
+  display: flex;
+  gap: 20px;
+}
+.day
+{
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+
+.TypeIn
+{
+  width: 100px;
+  height: 50px;
+  border-color:  lightgray;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-button
+{
+  margin-left: 550px;
+  margin-top: 20px;
+}
+
+.card-button button
+{
+  background-color: hsl(259, 100%, 65%);
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.Results
+{
+  font-size: 70px;
+  font-weight: 800;
+  color: black;
+  font-style: italic;
+}
+.Placeholder
+{
+  color: hsl(259, 100%, 65%);
+}
